@@ -1,0 +1,30 @@
+{
+  "name": "le-sourire-de-laura",
+  "version": "1.0.0",
+  "description": "Une application joyeuse pour redonner le sourire à Laura ! ✨",
+  "main": "index.html",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "dev": "tsc --watch & python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "start": "npm run build && npm run serve"
+  },
+  "keywords": [
+    "happiness",
+    "smile",
+    "fun",
+    "typescript",
+    "webapp"
+  ],
+  "author": "Assistant pour Laura",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "> 1%"
+  ]
+} 

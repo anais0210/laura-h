@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Sourire de Laura ✨</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="hero">
+            <h1 class="main-title">✨ Le Sourire de Laura ✨</h1>
+            <p class="subtitle">Ton espace de bonheur personnel pour chasser les nuages gris ! 🌈</p>
+            <div class="mood-selector">
+                <p>Comment te sens-tu aujourd'hui ?</p>
+                <div class="mood-buttons">
+                    <button class="mood-btn" data-mood="sad">😢 Triste</button>
+                    <button class="mood-btn" data-mood="tired">😴 Fatiguée</button>
+                    <button class="mood-btn" data-mood="grumpy">😤 De mauvaise humeur</button>
+                    <button class="mood-btn" data-mood="meh">😐 Bof...</button>
+                </div>
+            </div>
+        </header>
+
+        <main class="content">
+            <div class="cards-grid">
+                <div class="card compliments-card">
+                    <div class="card-header">
+                        <h2>💝 Compliments Magiques</h2>
+                        <p>Des compliments rien que pour toi !</p>
+                    </div>
+                    <div class="card-content">
+                        <div id="compliment-display" class="display-text">
+                            Clique sur le bouton pour recevoir un compliment spécial ! 🎁
+                        </div>
+                        <button id="compliment-btn" class="action-btn">Nouveau compliment ✨</button>
+                    </div>
+                </div>
+
+                <div class="card jokes-card">
+                    <div class="card-header">
+                        <h2>😂 Blagues du Jour</h2>
+                        <p>Pour rire aux éclats !</p>
+                    </div>
+                    <div class="card-content">
+                        <div id="joke-display" class="display-text">
+                            Prête pour une bonne blague ? 🤣
+                        </div>
+                        <button id="joke-btn" class="action-btn">Raconte-moi une blague 🎭</button>
+                    </div>
+                </div>
+
+                <div class="card game-card">
+                    <div class="card-header">
+                        <h2>🎈 Pop les Bulles !</h2>
+                        <p>Défoulez-vous en éclatant des bulles !</p>
+                    </div>
+                    <div class="card-content">
+                        <div id="bubble-game" class="game-area">
+                            <div class="score">Score: <span id="score">0</span></div>
+                            <div id="bubbles-container"></div>
+                            <button id="start-game-btn" class="action-btn">Commencer le jeu 🎮</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card animals-card">
+                    <div class="card-header">
+                        <h2>🐱 Animaux Adorables</h2>
+                        <p>De la cuteness pure !</p>
+                    </div>
+                    <div class="card-content">
+                        <div id="animal-display" class="animal-container">
+                            <img id="animal-gif" src="" alt="Animal adorable" style="display:none;">
+                            <p>Clique pour voir un animal trop mignon ! 🥰</p>
+                        </div>
+                        <button id="animal-btn" class="action-btn">Animal mignon ! 🦄</button>
+                    </div>
+                </div>
+
+                <div class="card quotes-card">
+                    <div class="card-header">
+                        <h2>🌟 Citations Motivantes</h2>
+                        <p>Pour rebooster le moral !</p>
+                    </div>
+                    <div class="card-content">
+                        <div id="quote-display" class="display-text">
+                            Une dose de motivation t'attend ! 💪
+                        </div>
+                        <button id="quote-btn" class="action-btn">Inspire-moi ! 🚀</button>
+                    </div>
+                </div>
+
+                <div class="card activities-card">
+                    <div class="card-header">
+                        <h2>🎯 Activités Boost</h2>
+                        <p>Des idées pour aller mieux !</p>
+                    </div>
+                    <div class="card-content">
+                        <div id="activity-display" class="display-text">
+                            Dis-moi ton humeur et je te propose une activité ! 🎪
+                        </div>
+                        <button id="activity-btn" class="action-btn">Que faire ? 🤔</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>Fait avec 💖 pour Laura - Tu es formidable ! ✨</p>
+            <div class="floating-emojis">
+                <span class="emoji">🌈</span>
+                <span class="emoji">⭐</span>
+                <span class="emoji">💝</span>
+                <span class="emoji">🦄</span>
+                <span class="emoji">🌸</span>
+            </div>
+        </footer>
+    </div>
+
+    <script type="module" src="dist/script.js"></script>
+</body>
+</html> 
