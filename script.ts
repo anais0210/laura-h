@@ -85,7 +85,22 @@ class LauraSmileApp {
     "Tu n'es pas perfecte, tu es limitée édition ! ✨",
     "Crois en toi autant que ton chien croit en toi ! 🐕",
     "Aujourd'hui, sois la raison pour laquelle quelqu'un sourit ! 😊",
-    "Tu es en train d'écrire ton histoire, assure-toi qu'elle soit épique ! 📖"
+    "Tu es en train d'écrire ton histoire, assure-toi qu'elle soit épique ! 📖",
+    "Laura, tu es un chef-d'œuvre en cours de création ! 🎨",
+    "Tes rêves ne sont pas trop grands, tu es juste en train de grandir pour les atteindre ! 🌱",
+    "Chaque matin est une nouvelle chance de faire quelque chose d'extraordinaire ! ☀️",
+    "Tu as survécu à 100% de tes pires journées jusqu'à maintenant - quel record ! 📊",
+    "N'oublie jamais : tu es la protagoniste de ta propre aventure ! 🌟",
+    "Ton sourire est un super-pouvoir déguisé ! 😄",
+    "Les étoiles ne peuvent briller sans obscurité - toi si ! ✨",
+    "Tu es exactement là où tu dois être pour devenir qui tu es censée être ! 🗺️",
+    "Fais-toi confiance : tu as déjà surmonté tellement de choses ! 💪",
+    "Ton authenticité est ta plus grande force ! 👑",
+    "Chaque difficulté est juste un complot pour te rendre plus badass ! 😎",
+    "Tu transforms les obstacles en tremplins comme une vraie ninja ! 🥷",
+    "Rappelle-toi : même les diamants ont besoin de pression pour briller ! 💎",
+    "Tu es l'auteure de ta propre success story ! 📚",
+    "Ton courage inspire plus de gens que tu ne le penses ! 🦋"
   ];
 
   private moodActivities: MoodActivities = {
