@@ -61,7 +61,6 @@ class LauraSmileApp {
     "Pourquoi les dinosaures ne peuvent pas applaudir ? Parce qu'ils sont morts ! 🦕",
     "Comment appelle-t-on un pingouin dans un champ de blé ? Un pingouin perdu ! 🐧",
     "Que dit un citron pressé ? 'Ça va pas la tête ?!' 🍋",
-    "Pourquoi les poules ne portent pas de culotte ? Parce que le coq n'a pas de mains ! 🐔",
     "Comment appelle-t-on un chat qui a bu du citron ? Un chat-aigre ! 😸",
     "Que dit un cannibale qui mange un clown ? 'Ça a un goût bizarre...' 🤡",
     "Pourquoi les pêcheurs n'aiment pas partager ? Parce qu'ils sont un peu radin ! 🎣",
