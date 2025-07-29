@@ -57,7 +57,22 @@ class LauraSmileApp {
     "Que dit un escargot quand il croise une chenille ? 'Regarde, une ambulance !' 🚑",
     "Pourquoi les plongeurs ne peuvent pas travailler ensemble ? Parce qu'ils se marrent ! 😂",
     "Comment appelle-t-on un chien sans pattes ? On ne l'appelle pas, on va le chercher ! 🐕",
-    "Que dit un crocodile qui surveille la pharmacie ? Lacoste garde ! 🐊"
+    "Que dit un crocodile qui surveille la pharmacie ? Lacoste garde ! 🐊",
+    "Pourquoi les dinosaures ne peuvent pas applaudir ? Parce qu'ils sont morts ! 🦕",
+    "Comment appelle-t-on un pingouin dans un champ de blé ? Un pingouin perdu ! 🐧",
+    "Que dit un citron pressé ? 'Ça va pas la tête ?!' 🍋",
+    "Pourquoi les poules ne portent pas de culotte ? Parce que le coq n'a pas de mains ! 🐔",
+    "Comment appelle-t-on un chat qui a bu du citron ? Un chat-aigre ! 😸",
+    "Que dit un cannibale qui mange un clown ? 'Ça a un goût bizarre...' 🤡",
+    "Pourquoi les pêcheurs n'aiment pas partager ? Parce qu'ils sont un peu radin ! 🎣",
+    "Comment fait-on pour allumer un barbecue breton ? On utilise un Breizh-quet ! 🔥",
+    "Que dit un vampire qui a mal aux dents ? 'Aïe love you !' 🧛‍♂️",
+    "Pourquoi les footballeurs courent-ils après le ballon ? Parce que s'ils marchaient, le match durerait trop longtemps ! ⚽",
+    "Comment appelle-t-on un chien magicien ? Un labracadabrador ! 🎩",
+    "Que dit un chocolat qui fait du sport ? 'Je fond !' 🍫",
+    "Pourquoi les pharmaciens ne peuvent pas jouer au poker ? Parce qu'ils ont toujours l'air de bluffer ! 💊",
+    "Comment appelle-t-on un lapin sourd ? Comme tu veux, il n'entend pas ! 🐰",
+    "Que dit un Schtroumpf qui tombe ? 'Schtroumpf !' 💙"
   ];
 
   private quotes: string[] = [
