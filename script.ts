@@ -29,7 +29,22 @@ class LauraSmileApp {
     "Tu transformes les journées ordinaires en aventures magiques ! 🎪",
     "Tu es plus cool qu'un pingouin avec des lunettes de soleil ! 🐧",
     "Ton énergie positive pourrait alimenter une ville entière ! ⚡",
-    "Tu es le genre de personne que même les anges envient ! 👼"
+    "Tu es le genre de personne que même les anges envient ! 👼",
+    "Laura, tu es comme un arc-en-ciel après la pluie - tu apportes la beauté ! 🌈",
+    "Ton cœur est si grand qu'il pourrait contenir tout l'univers ! 💖",
+    "Tu es la raison pour laquelle le mot 'extraordinaire' existe ! 🌠",
+    "Même les étoiles sont jalouses de ton éclat naturel ! ⭐",
+    "Tu as cette magie rare qui transforme tout en mieux ! ✨",
+    "Ton optimisme pourrait faire pousser des fleurs dans le désert ! 🌸",
+    "Tu es plus rafraîchissante qu'une brise d'été ! 🍃",
+    "Laura, tu es la définition parfaite de 'unique et merveilleuse' ! 💎",
+    "Tes idées sont comme des feux d'artifice - brillantes et spectaculaires ! 🎆",
+    "Tu rends le monde plus coloré juste en existant ! 🎨",
+    "Ton authenticité est plus précieuse que tous les trésors ! 💰",
+    "Tu es comme un café parfait - tu réveilles ce qu'il y a de meilleur chez les gens ! ☕",
+    "Laura, tu es la preuve vivante que la perfection peut être humaine ! 👑",
+    "Ton empathie pourrait guérir le monde entier ! 🌍",
+    "Tu es plus inspirante qu'un lever de soleil sur l'océan ! 🌅"
   ];
 
   private jokes: string[] = [
