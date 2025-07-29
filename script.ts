@@ -64,40 +64,169 @@ class LauraSmileApp {
       "Prends un bain chaud avec des bulles et imagine que tu es une sirène ! 🧜‍♀️",
       "Écris trois choses pour lesquelles tu es reconnaissante aujourd'hui 📝",
       "Regarde des vidéos de bébés animaux pendant 10 minutes 🐱",
-      "Appelle quelqu'un que tu aimes juste pour dire bonjour 📞"
+      "Appelle quelqu'un que tu aimes juste pour dire bonjour 📞",
+      "Fais-toi un chocolat chaud avec des marshmallows et des épices 🍫",
+      "Regarde ton film préféré d'enfance avec une couverture douce 🎬",
+      "Écris une lettre d'amour à ton futur toi dans 1 an 💌",
+      "Crée une playlist de chansons qui te remontent le moral 🎶",
+      "Fais du coloriage ou des mandalas pour te détendre 🎨",
+      "Commande ton plat réconfort préféré et savour chaque bouchée 🍕",
+      "Prends des photos de jolies choses autour de toi 📸",
+      "Fais une séance de câlins avec un coussin ou une peluche 🧸",
+      "Écris dans un journal intime tes émotions sans jugement 📖",
+      "Regarde le coucher ou lever de soleil depuis ta fenêtre 🌅",
+      "Fais une liste de tes réussites récentes, même les plus petites ⭐",
+      "Envoie un message gentil à un ami pour lui dire qu'il compte pour toi 💕"
     ],
     tired: [
       "Fais une micro-sieste de 20 minutes avec une playlist relaxante 😴",
       "Bois une tisane chaude en regardant par la fenêtre 🍵",
       "Fais 5 minutes de respiration profonde avec les yeux fermés 🧘‍♀️",
       "Regarde un épisode de ta série comfort préférée 📺",
-      "Prends une douche rafraîchissante en chantant à tue-tête 🚿"
+      "Prends une douche rafraîchissante en chantant à tue-tête 🚿",
+      "Fais des étirements doux pendant 10 minutes 🤸‍♀️",
+      "Écoute un podcast relaxant ou une méditation guidée 🎧",
+      "Mange un encas sain qui te donnera de l'énergie (fruits, noix) 🍎",
+      "Fais une courte promenade à l'air frais, même 5 minutes 🚶‍♀️",
+      "Bois un grand verre d'eau avec du citron 🍋",
+      "Fais une séance de massage des mains et des pieds 👐",
+      "Change d'environnement : va dans une autre pièce 🏠",
+      "Mets de la musique énergisante et fais 3 minutes de mouvement 💃",
+      "Prends quelques grandes inspirations d'air frais à la fenêtre 🌬️",
+      "Fais une liste de tâches courtes et faciles à accomplir ✅",
+      "Appelle un ami énergique qui te boost naturellement ☎️",
+      "Fais 10 jumping jacks ou quelques squats pour réveiller ton corps 💪"
     ],
     grumpy: [
       "Crie dans un oreiller pendant 10 secondes (ça marche vraiment !) 😤",
       "Fais du sport ou de la danse énergique pour évacuer 💃",
       "Écris tout ce qui t'énerve sur un papier, puis déchire-le ! 📝",
       "Mange quelque chose de délicieux qui te fait plaisir 🍫",
-      "Regarde des memes drôles jusqu'à ce que tu ries 😂"
+      "Regarde des memes drôles jusqu'à ce que tu ries 😂",
+      "Fais du ménage énergique en écoutant de la musique forte 🧹",
+      "Prends une douche très chaude ou très froide pour reset 🚿",
+      "Fais des pompes ou des abdos pour évacuer la tension 💪",
+      "Chante à tue-tête une chanson qui te défouler 🎤",
+      "Dessine ou gribouille agressivement sur du papier 🖍️",
+      "Mâche un chewing-gum et fait des bulles 🍬",
+      "Tape dans un coussin ou fais de la boxe dans le vide 🥊",
+      "Regarde des vidéos de fails ou de pranks pour rire 😹",
+      "Écris une lettre de colère puis jette-la (sans l'envoyer !) 💌",
+      "Fais du jardinage énergique ou rempote une plante 🌱",
+      "Écoute du métal ou du rock très fort avec un casque 🎸",
+      "Fais du shopping en ligne pour te faire plaisir (sans acheter !) 🛒",
+      "Regarde des compilations d'animaux drôles qui font des bêtises 🐕"
     ],
     meh: [
       "Apprends quelque chose de nouveau en 15 minutes sur YouTube 📚",
       "Réorganise un petit coin de ta chambre à ton goût 🏠",
       "Essaie une nouvelle recette simple et délicieuse 👩‍🍳",
       "Fais une promenade dehors et observe 5 détails nouveaux 🚶‍♀️",
-      "Crée quelque chose avec tes mains (dessin, craft, etc.) 🎨"
+      "Crée quelque chose avec tes mains (dessin, craft, etc.) 🎨",
+      "Appelle un ami que tu n'as pas vu depuis longtemps 📞",
+      "Écris une histoire courte ou un poème sur ta journée ✍️",
+      "Fais une séance photo de ton quotidien pour le sublimer 📸",
+      "Essaie une nouvelle coiffure ou un nouveau style de maquillage 💄",
+      "Plante quelque chose (herbes aromatiques, fleurs) 🌿",
+      "Regarde un documentaire sur un sujet qui t'intrigue 🎬",
+      "Fais du yoga ou des exercices d'étirement 🧘‍♀️",
+      "Crée une playlist pour différentes humeurs 🎵",
+      "Écris une lettre de remerciement à quelqu'un d'important 💌",
+      "Fais du DIY simple : customise un objet que tu possèdes ✂️",
+      "Planifie ton weekend idéal ou tes prochaines vacances 🗓️",
+      "Fais une séance de tri et don de vêtements/objets 👕",
+      "Apprends 5 mots dans une nouvelle langue 🌍",
+      "Fais une séance de méditation guidée de 10 minutes 🕯️"
     ]
   };
 
   private animalGifs: string[] = [
+    // Chats adorables
     "https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif", // Chaton mignon
+    "https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif", // Chat qui joue
+    "https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif", // Chat qui dort
+    "https://media.giphy.com/media/LEKtRCGyA90QM/giphy.gif", // Chat surpris
+    "https://media.giphy.com/media/nR4L10XlJcSeQ/giphy.gif", // Chat qui fait la toilette
+    "https://media.giphy.com/media/BzyTuYCmvSORqs1ABM/giphy.gif", // Chat orange mignon
+    "https://media.giphy.com/media/8vQSQ3cNXuDGo/giphy.gif", // Chat qui bâille
+    "https://media.giphy.com/media/tBxyh2hbwMiqc/giphy.gif", // Chat qui joue avec ses pattes
+
+    // Chiens adorables  
     "https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif", // Chiot qui joue
+    "https://media.giphy.com/media/4Zo41lhzKt6iZ8xff9/giphy.gif", // Golden retriever heureux
+    "https://media.giphy.com/media/kRmg8zeReOYXm/giphy.gif", // Chiot qui court
+    "https://media.giphy.com/media/l1AsBL4S36yDJain6/giphy.gif", // Corgi adorable
+    "https://media.giphy.com/media/l2JhOVyjSLKeKCRfa/giphy.gif", // Husky qui joue
+    "https://media.giphy.com/media/13CoXDiaCcCoyk/giphy.gif", // Beagle mignon
+    "https://media.giphy.com/media/10dU7AN7xsi1I/giphy.gif", // Chiot labrador
+    "https://media.giphy.com/media/lJNoBCvQYp7nq/giphy.gif", // Bulldog français
+
+    // Pandas et ours
     "https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif", // Bébé panda
+    "https://media.giphy.com/media/EatwJZRUIv41G/giphy.gif", // Panda qui joue
+    "https://media.giphy.com/media/n2IPMGMhGkqaY/giphy.gif", // Panda qui mange
+    "https://media.giphy.com/media/EvYHHSntaIl5m/giphy.gif", // Panda qui roule
+    "https://media.giphy.com/media/H4uE6w9G1uK4M/giphy.gif", // Ourson polaire
+    "https://media.giphy.com/media/ujUdrdpX7Ok5W/giphy.gif", // Ours brun mignon
+
+    // Animaux aquatiques
     "https://media.giphy.com/media/mlvseq9yvZhba/giphy.gif", // Loutre adorable
-    "https://media.giphy.com/media/yFQ0ywscgobJK/giphy.gif", // Bébé éléphant
-    "https://media.giphy.com/media/6Q3M4BIK0lX44/giphy.gif", // Penguin qui glisse
+    "https://media.giphy.com/media/pls8xeXFbASfS/giphy.gif", // Loutre qui nage
+    "https://media.giphy.com/media/6Q3M4BIK0lX44/giphy.gif", // Penguin qui glisse  
+    "https://media.giphy.com/media/H7ZrrA9V2pd3G/giphy.gif", // Bébé pingouin
+    "https://media.giphy.com/media/bLBIXynXe1x5e/giphy.gif", // Phoque mignon
+    "https://media.giphy.com/media/2sdxXbKeCmKFwHCaDL/giphy.gif", // Dauphin qui joue
+    "https://media.giphy.com/media/l46CeaoQNEyakFCXS/giphy.gif", // Baleine adorable
+
+    // Lapins et rongeurs
     "https://media.giphy.com/media/q1MeAPDDMb43K/giphy.gif", // Lapin mignon
-    "https://media.giphy.com/media/ZZflpBhAdItib1tvg7/giphy.gif" // Raton laveur
+    "https://media.giphy.com/media/YRtLgsajXrz1a/giphy.gif", // Lapin qui mange
+    "https://media.giphy.com/media/3oz8xRF0v9WMAUVLNK/giphy.gif", // Hamster qui mange
+    "https://media.giphy.com/media/1BXa2alBjrCXC/giphy.gif", // Écureuil adorable
+    "https://media.giphy.com/media/1AgDOo4LJ0nUaL4koT/giphy.gif", // Cochon d'Inde
+    "https://media.giphy.com/media/VxbP9tLeKzazS/giphy.gif", // Chinchilla mignon
+
+    // Renards et animaux sauvages
+    "https://media.giphy.com/media/EizPK3InQbrNK/giphy.gif", // Renard roux adorable
+    "https://media.giphy.com/media/6bWqIhWriQBAQ/giphy.gif", // Renard arctique
+    "https://media.giphy.com/media/ZZflpBhAdItib1tvg7/giphy.gif", // Raton laveur
+    "https://media.giphy.com/media/QxssH3MwFLEdO/giphy.gif", // Koala endormi
+    "https://media.giphy.com/media/TEFplLVRDMWBi/giphy.gif", // Paresseux adorable
+
+    // Éléphants et gros animaux
+    "https://media.giphy.com/media/yFQ0ywscgobJK/giphy.gif", // Bébé éléphant
+    "https://media.giphy.com/media/KymorXV2DC2o8/giphy.gif", // Éléphant qui joue
+    "https://media.giphy.com/media/l0Hlx0M5OTd5W9S48/giphy.gif", // Hippopotame bébé
+    "https://media.giphy.com/media/10KIsXhwdoerHW/giphy.gif", // Girafe mignonne
+
+    // Oiseaux adorables
+    "https://media.giphy.com/media/H1dxi8xdh4d0s/giphy.gif", // Chouette mignonne
+    "https://media.giphy.com/media/c5PHIq9P8hZe0/giphy.gif", // Perroquet qui danse
+    "https://media.giphy.com/media/VhVyKLClyKNMc/giphy.gif", // Caneton adorable
+    "https://media.giphy.com/media/EEzUgMbjhIK8o/giphy.gif", // Poussin jaune
+
+    // Animaux de ferme mignons
+    "https://media.giphy.com/media/NKmZROCeLuJMI/giphy.gif", // Cochon miniature
+    "https://media.giphy.com/media/1mikGEwIrb5dC/giphy.gif", // Agneau qui saute
+    "https://media.giphy.com/media/4Cpgf1zzMMy4w/giphy.gif", // Chèvre bébé
+    "https://media.giphy.com/media/qtwGJAUZgWW5i/giphy.gif", // Veau adorable
+
+    // Animaux exotiques
+    "https://media.giphy.com/media/3Mo1LLB7Nb7Ig/giphy.gif", // Alpaga mignon
+    "https://media.giphy.com/media/8dYmJ6Buo3lYY/giphy.gif", // Lemure qui danse
+    "https://media.giphy.com/media/o5QXt8mjIsOiI/giphy.gif", // Tapir bébé
+    "https://media.giphy.com/media/1n5PQXCqBsUcIIreFP/giphy.gif", // Capybara zen
+
+    // Animaux domestiques spéciaux
+    "https://media.giphy.com/media/cIz4iJkIk55jJJaXq8/giphy.gif", // Furet qui joue
+    "https://media.giphy.com/media/K6lCJYXq5nQ3e/giphy.gif", // Hérisson adorable
+    "https://media.giphy.com/media/YQBqzrOcUZ9OE/giphy.gif", // Tortue mignonne
+
+    // Chatons spéciaux
+    "https://media.giphy.com/media/jpbnoe3UIa8TU8LM13/giphy.gif", // Chat Maine Coon
+    "https://media.giphy.com/media/5GoVLqeAOo6PK/giphy.gif", // Chat persan
+    "https://media.giphy.com/media/12K2WXKt4A0TSw/giphy.gif", // Chat siamois
+    "https://media.giphy.com/media/cfL8a1rB1przO/giphy.gif", // Chat ragdoll
   ];
 
   constructor() {
